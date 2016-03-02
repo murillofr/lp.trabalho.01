@@ -5,7 +5,7 @@
   
   if ($sexo == "M" || $sexo == "m" || $sexo == "F" || $sexo == "f") {
     
-    
+    print "teste git.";
     
   }
   else {
