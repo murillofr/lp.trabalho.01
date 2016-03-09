@@ -34,12 +34,12 @@
       $total = $subtotal * 1.1;
       
       print "\nValor da conta:";
-      print "\nR$ " . $entrada . " (valor básico)";
-      print "\nR$ " . $total_bebida_comida . " (bebida e comida)";
-      print "\nR$ " . $couver . " (cantores)";
-      print "\nR$ " . $subtotal . " (subtotal sem 10%)";
+      print "\nR$ " . number_format($entrada,2,",",".") . " (valor básico)";
+      print "\nR$ " . number_format($total_bebida_comida,2,",",".") . " (bebida e comida)";
+      print "\nR$ " . number_format($couver,2,",",".") . " (cantores)";
+      print "\nR$ " . number_format($subtotal,2,",",".") . " (subtotal sem 10%)";
       print "\n------------------------------------------";
-      print "\nR$ " . $total . " (total)";
+      print "\nR$ " . number_format($total,2,",",".") . " (total)";
       
     }
     else {
@@ -71,12 +71,12 @@
       $total = $subtotal * 1.1;
       
       print "\nValor da conta:";
-      print "\nR$ " . $entrada . " (valor básico)";
-      print "\nR$ " . $total_bebida_comida . " (bebida e comida)";
-      print "\nR$ " . $couver . " (cantores)";
-      print "\nR$ " . $subtotal . " (subtotal sem 10%)";
+      print "\nR$ " . number_format($entrada,2,",",".") . " (valor básico)";
+      print "\nR$ " . number_format($total_bebida_comida,2,",",".") . " (bebida e comida)";
+      print "\nR$ " . number_format($couver,2,",",".") . " (cantores)";
+      print "\nR$ " . number_format($subtotal,2,",",".") . " (subtotal sem 10%)";
       print "\n------------------------------------------";
-      print "\nR$ " . $total . " (total)";      
+      print "\nR$ " . number_format($total,2,",",".") . " (total)";      
       
     }
     
